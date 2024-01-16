@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://fapp6jash114"]
+
+[ext_resource type="Texture2D" uid="uid://g7e4ds3djsbw" path="res://scenario objects/assets/poste.png" id="1_bpw1e"]
+
+[node name="scenario objects" type="Node2D"]
+
+[node name="post" type="Node2D" parent="."]
+
+[node name="Poste" type="Sprite2D" parent="post"]
+position = Vector2(245, 86)
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("1_bpw1e")
+hframes = 2

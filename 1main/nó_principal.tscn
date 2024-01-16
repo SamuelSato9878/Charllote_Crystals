@@ -1,0 +1,13 @@
+[gd_scene load_steps=4 format=3 uid="uid://oj8iye6adn8t"]
+
+[ext_resource type="PackedScene" uid="uid://b86qwdk26tqnv" path="res://character/scenes/main_player.tscn" id="1_r2bs2"]
+[ext_resource type="PackedScene" uid="uid://c0setxnmu5ts2" path="res://levels/cenas/map_01.tscn" id="2_0lpcy"]
+[ext_resource type="PackedScene" uid="uid://fapp6jash114" path="res://scenario objects/scenario_objects.tscn" id="3_623di"]
+
+[node name="Nó Principal" type="Node2D"]
+
+[node name="MainPlayer" parent="." instance=ExtResource("1_r2bs2")]
+
+[node name="map_01" parent="." instance=ExtResource("2_0lpcy")]
+
+[node name="scenario objects" parent="." instance=ExtResource("3_623di")]
